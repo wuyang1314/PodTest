@@ -9,4 +9,8 @@
 
 @implementation Logger
 
+-(void)test {
+    NSLog(@"ewqeqw");
+}
+
 @end
