@@ -7,7 +7,7 @@
 //
 
 #import "PTViewController.h"
-
+#import <Logger.h>
 @interface PTViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    Logger *lg = [[Logger alloc] init];
+    [lg test];
 }
 
 - (void)didReceiveMemoryWarning
